@@ -11,4 +11,8 @@ class remoteLampu
     {
         saklarNo[i] = value;
     }
+    string getSaklarNo (int i)
+    {
+        return saklarNo[i];
+    }
 };
