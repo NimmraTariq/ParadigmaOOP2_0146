@@ -10,7 +10,7 @@ class Abstraksiklas
   public: 
   void setXY (string a, string b)
   {
-    x= a;
+    x= a ;
     y= b;
   }
   
