@@ -27,3 +27,13 @@ class lia : public seseorang
         cout << "Pesan dari lia" << endl; 
     }
 };
+
+int main()
+{
+    seseorang *obyek;
+    joko a;
+    lia b;
+
+    obyek = &a; 
+    obyek->pesan(); 
+}
